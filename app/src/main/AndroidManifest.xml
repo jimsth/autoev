@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.eu.twoox.autoev">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".net" android:label="@string/net" android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".db" android:label="@string/db" android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".os" android:label="@string/os" android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".sap" android:label="@string/sap" android:parentActivityName=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>

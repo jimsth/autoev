@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/osl2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l2"
+            android:textSize="35sp"></TextView>
+
+        <TextView
+            android:id="@+id/text_view_osl21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/os_l_2_1"
+            android:textColor="#ff0000"
+            android:background="@android:color/darker_gray"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/text_view_osl22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/os_l_2_2"
+            android:textColor="#ff0000"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/text_view_osl23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/os_l_2_3"
+            android:textColor="#ff0000"
+            android:background="@android:color/darker_gray"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/text_view_osl24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/os_l_2_4"
+            android:textColor="#ff0000"
+            android:textSize="20sp"
+            tools:ignore="DuplicateIds"></TextView>
+        <TextView
+            android:id="@+id/text_view_osl25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/os_l_2_5"
+            android:textColor="#ff0000"
+            android:background="@android:color/darker_gray"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/text_view_osl26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/os_l_2_6"
+            android:textColor="#ff0000"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

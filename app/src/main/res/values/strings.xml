@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--misc-->
+    <string name="app_name">autoevalueit iorself</string>
+    <string name="os">Operating Systems</string>
+    <string name="db">Databases</string>
+    <string name="net">Networking</string>
+    <string name="sap">Sap Environment</string>
+    <string name="l1">Level 1 – Basic</string>
+    <string name="l2">Level 2 - Intermediate</string>
+    <string name="l3">Level 3 - Advanced</string>
+    <string name="l4">Level 4 - Expert</string>
+
+    <!--networking layer-->
+
+    <string name="net_l_1">Basic theoretical knowledge of networking (knowing the main networking components and protocols)</string>
+    <string name="net_l_2_1">Understand how SAP Systems communicate over the network</string>
+    <string name="net_l_2_2">Know SAP internal communication ports</string>
+    <string name="net_l_2_3">Theoretical understanding of SAP secure communications</string>
+    <string name="net_l_2_4">Capability to cooperate with network experts in solving networking issues</string>
+    <string name="net_l_3_1">Knows the network concepts that facilitate communication between SAP systems and other applications (interfacing with other non-SAP applications)</string>
+    <string name="net_l_3_2">Basic knowledge of SAP network security (gateway security, certificate, SNC….)</string>
+    <string name="net_l_3_3">Awareness regarding the dependencies between different SAP communication channels (how will a component failure affect the entire SAP ecosystem)</string>
+    <string name="net_l_4_1">Provides specialized technical guidance on complex architecture challenges</string>
+    <string name="net_l_4_2">Able to analyze existing network structure in order to define, design and achieve simplified, application- focused network architectures (finding bottlenecks, network tuning etc.)</string>
+
+    <!--os layer-->
+
+    <string name="os_l_1_1">User concepts knowledge</string>
+    <string name="os_l_1_2">File structure knowledge (content, permissions, navigation commands)</string>
+    <string name="os_l_1_3">Being able to execute basic operating commands (familiar with terminal command lines)</string>
+    <string name="os_l_2_1">Basic script understanding</string>
+    <string name="os_l_2_2">Editing configuration files</string>
+    <string name="os_l_2_3">Creating shares / Mounting</string>
+    <string name="os_l_2_4">Basic OS performance management (identifying situations where resources are over-used – memory/CPU/disk)</string>
+    <string name="os_l_2_5">Ability to install / activate additional OS components (Windows additional features, Unix packages)</string>
+    <string name="os_l_2_6">User and Groups Management  (handling user policies in relation with network domains etc.)</string>
+    <string name="os_l_3_1">File system creation/administration</string>
+    <string name="os_l_3_2">Troubleshooting OS errors</string>
+    <string name="os_l_3_3">Basic script creation</string>
+    <string name="os_l_3_4">Advanced OS System Structure knowledge:Peripheral Management; Memory Management; Filesystem Management; Application Management</string>
+    <string name="os_l_3_5">Patching OS according to SAP requirements</string>
+    <string name="os_l_3_6">Use high availability OS environments</string>
+    <string name="os_l_4_1">Advanced script creation and troubleshooting</string>
+    <string name="os_l_4_2">Understanding how SAP components make use of low-level OS functionality (why are certain libraries, function calls etc. being called by SAP components)</string>
+    <string name="os_l_4_3">Design and implement high availability OS environments</string>
+
+    <!--db layer-->
+
+    <string name="db_l_1_1">Theoretical knowledge of database systems</string>
+    <string name="db_l_1_2">Starting and stopping databases</string>
+    <string name="db_l_1_3">Identify DB processes and file structure at OS level</string>
+    <string name="db_l_1_4">Space management (tablespace extension)</string>
+    <string name="db_l_1_5">Able to locate and interpret  DB logs</string>
+    <string name="db_l_2_1">Basic SQL knowledge (DB queries)</string>
+    <string name="db_l_2_2">Space management (modify file structure)</string>
+    <string name="db_l_2_3">Patching/upgrading following procedure</string>
+    <string name="db_l_2_4">Perform backup/restore/recovery following procedure  </string>
+    <string name="db_l_2_5">Understand RDBMS logging mechanism</string>
+    <string name="db_l_2_6">Working with database specific tools (BRtools, HANA Studio, Sybase SCC, MaxDB Studio,etc)</string>
+    <string name="db_l_2_7">Perform certain database- related task based on a given documentation</string>
+    <string name="db_l_2_8">Understanding database memory areas</string>
+    <string name="db_l_2_9">Change database parameters</string>
+    <string name="db_l_2_10">Understand and implement benchmark on database servers</string>
+    <string name="db_l_3_1">Perform and troubleshoot backup/restore/recovery</string>
+    <string name="db_l_3_2">Patching/upgrading Databases and troubleshooting</string>
+    <string name="db_l_3_3">Database reorganization/compression</string>
+    <string name="db_l_3_4">Installing and configuring Databases</string>
+    <string name="db_l_3_5">Perform database migration</string>
+    <string name="db_l_3_6">Optimize database performance</string>
+    <string name="db_l_3_7">Database sizing in implementation projects</string>
+    <string name="db_l_3_8">Interpret benchmark on database servers (EWA, HANA mini checks, etc)</string>
+    <string name="db_l_3_9">Implementing high  database availability architecture based on specific procedure</string>
+    <string name="db_l_4_1">Designing and configuring high database availability architecture</string>
+    <string name="db_l_4_2">Able to troubleshoot database upgrades/migration issues</string>
+    <string name="db_l_4_3">Advanced backup techniques including backup strategy definition</string>
+    <string name="db_l_4_4">Define and implement the database operating and administrative procedures</string>
+    <string name="db_l_4_5">Evaluate performance and anticipate data bottleneck</string>
+    <string name="db_l_4_6">Find and implement means to automate manual processes</string>
+    <string name="db_l_4_7">Conduct comprehensive Benchmark on database servers</string>
+
+    <!--sap layer!-->
+
+    <string name="sap_l_1_1">General knowledge about SAP Netweaver</string>
+    <string name="sap_l_1_2">Knowledge of SAP administration transaction codes</string>
+    <string name="sap_l_1_3">Able to navigate in non-ABAP Systems (administration tools)</string>
+    <string name="sap_l_1_4">Able to perform independently SAP-related tasks based on a given documentation</string>
+    <string name="sap_l_1_5">Starting and stopping SAP systems</string>
+    <string name="sap_l_1_6">Theoretical knowledge and basic skills in: Printer, User and TMS Management</string>
+    <string name="sap_l_1_7">Upgrading SAP kernel</string>
+    <string name="sap_l_2_1">Maintenance of SAP standard administration background jobs</string>
+    <string name="sap_l_2_2">Perform SAP client administration (create client, copy client, delete client, export/import client) as required</string>
+    <string name="sap_l_2_3">Troubleshooting and advanced set-up in Printer, User and TMS Management</string>
+    <string name="sap_l_2_4">Configure and troubleshoot SAP system connections</string>
+    <string name="sap_l_2_5">Perform homogenous system copies</string>
+    <string name="sap_l_2_6">Follow-up EarlyWatch reports and implement recommendations</string>
+    <string name="sap_l_2_7">Installing and configuring SAP Systems based on a step by step documentation</string>
+    <string name="sap_l_2_8">Managed system configuration</string>
+    <string name="sap_l_2_9">Perform Root Cause Analysis  </string>
+    <string name="sap_l_2_10">Performing SP stack upgrades</string>
+    <string name="sap_l_3_1">Perform heterogeneous system copies </string>
+    <string name="sap_l_3_2">SAP System sizing and design in new implementations</string>
+    <string name="sap_l_3_3">Installing and configuring SAP Systems from scratch based on customer needs</string>
+    <string name="sap_l_3_4">SAP system performance tuning</string>
+    <string name="sap_l_3_5">Able to define and implement Security concepts based on SAP recommendations</string>
+    <string name="sap_l_3_6">Performing EHP stack and release upgrades</string>
+    <string name="sap_l_3_7">Solution Manager scenario configuration</string>
+    <string name="sap_l_4_1">Design and maintain the technical system landscape of the SAP systems, including high availability solutions</string>
+    <string name="sap_l_4_2">Independently lead or execute complex assignments and deliverables</string>
+    <string name="sap_l_4_3">Solve complex performance issues</string>
+    <string name="sap_l_4_4">Full lifecycle implementation for an SAP system</string>
+    <string name="sap_l_4_5">Proven hands-on experience on implementing SAP security concepts</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sapl3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l3"
+            android:textSize="35sp"></TextView>
+
+        <TextView
+            android:id="@+id/text_view_sapl31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sap_l_3_1"
+            android:textColor="#ff0000"
+            android:background="@android:color/darker_gray"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/text_view_sapl32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sap_l_3_2"
+            android:textColor="#ff0000"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/text_view_sapl33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sap_l_3_3"
+            android:textColor="#ff0000"
+            android:background="@android:color/darker_gray"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/text_view_sapl34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sap_l_3_4"
+            android:textColor="#ff0000"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/text_view_sapl35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sap_l_3_5"
+            android:textColor="#ff0000"
+            android:background="@android:color/darker_gray"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/text_view_sapl36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sap_l_3_6"
+            android:textColor="#ff0000"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/text_view_sapl37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sap_l_3_7"
+            android:textColor="#ff0000"
+            android:background="@android:color/darker_gray"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

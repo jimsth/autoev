@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/net_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingEnd="14dp"
+        android:paddingStart="14dp"
+        android:paddingTop="10dp"
+        android:text="Networking" />
+
+    <TextView
+        android:id="@+id/os_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingEnd="14dp"
+        android:paddingStart="14dp"
+        android:paddingTop="10dp"
+        android:text="Operating Systems" />
+
+    <TextView
+        android:id="@+id/db_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingEnd="14dp"
+        android:paddingStart="14dp"
+        android:paddingTop="10dp"
+        android:text="Databases" />
+
+    <TextView
+        android:id="@+id/sap_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingEnd="14dp"
+        android:paddingStart="14dp"
+        android:paddingTop="10dp"
+        android:text="SAP Environment" />
+
+
+</LinearLayout>
