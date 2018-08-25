@@ -18,7 +18,7 @@
         android:paddingEnd="14dp"
         android:paddingStart="14dp"
         android:paddingTop="10dp"
-        android:text="Networking" />
+        android:text="@string/net" />
 
     <TextView
         android:id="@+id/os_button"
@@ -32,7 +32,7 @@
         android:paddingEnd="14dp"
         android:paddingStart="14dp"
         android:paddingTop="10dp"
-        android:text="Operating Systems" />
+        android:text="@string/os" />
 
     <TextView
         android:id="@+id/db_button"
@@ -46,7 +46,7 @@
         android:paddingEnd="14dp"
         android:paddingStart="14dp"
         android:paddingTop="10dp"
-        android:text="Databases" />
+        android:text="@string/db" />
 
     <TextView
         android:id="@+id/sap_button"
@@ -60,7 +60,21 @@
         android:paddingEnd="14dp"
         android:paddingStart="14dp"
         android:paddingTop="10dp"
-        android:text="SAP Environment" />
+        android:text="@string/sap" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/project" />
+    </LinearLayout>
 
 
 </LinearLayout>
