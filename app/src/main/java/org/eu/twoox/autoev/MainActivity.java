@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -17,24 +16,26 @@ public class MainActivity extends AppCompatActivity {
         TextView refreshButtonos = (TextView) findViewById(R.id.os_button);
         TextView refreshButtondb = (TextView) findViewById(R.id.db_button);
         TextView refreshButtonsap = (TextView) findViewById(R.id.sap_button);
+
         refreshButtonnet.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-               Intent i = new Intent(getApplicationContext(), net.class);
+         @Override
+         public void onClick(View view) {
+
+         Intent i = new Intent(getApplicationContext(), net.class);
                  startActivity(i);
             }
         });
         refreshButtonos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), db.class);
+                Intent i = new Intent(getApplicationContext(), os.class);
                 startActivity(i);
             }
         });
         refreshButtondb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), os.class);
+                Intent i = new Intent(getApplicationContext(), db.class);
                 startActivity(i);
             }
         });

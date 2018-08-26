@@ -2,7 +2,7 @@
 <resources>
     <!--misc-->
     <string name="app_name">autoevalueit iorself</string>
-    <string name="project">C[orporate] R[elated] A[utoevaluation] P[roject]</string>
+    <string name="project"> <b>C</b>[orporate] <b>R</b>[elated] <b>A</b>[utoevaluation] <b>P</b>[roject]</string>
     <string name="os">Operating Systems</string>
     <string name="db">Databases</string>
     <string name="net">Networking</string>

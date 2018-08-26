@@ -8,7 +8,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <TextView
             android:id="@+id/osl1"
@@ -17,28 +19,93 @@
             android:text="@string/l1"
             android:textSize="35sp"></TextView>
 
-        <TextView
-            android:id="@+id/text_view_osl11"
+        <android.support.v7.widget.GridLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/os_l_1_1"
-            android:textColor="#ff0000"
-            android:background="@android:color/darker_gray"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_osl12"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/os_l_1_2"
-            android:textColor="#ff0000"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_osl13"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/os_l_1_3"
-            android:textColor="#ff0000"
-            android:background="@android:color/darker_gray"
-            android:textSize="20sp"></TextView>
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_osl11"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_osl11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@android:color/darker_gray"
+                        android:text="@string/os_l_1_1"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_osl12"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_osl2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/os_l_1_2"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_osl13"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_osl13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@android:color/darker_gray"
+                        android:text="@string/os_l_1_3"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.GridLayout>
+
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

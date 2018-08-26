@@ -8,7 +8,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <TextView
             android:id="@+id/sapl2"
@@ -17,80 +19,262 @@
             android:text="@string/l2"
             android:textSize="35sp"></TextView>
 
-        <TextView
-            android:id="@+id/text_view_sapl21"
+        <android.support.v7.widget.GridLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sap_l_2_1"
-            android:textColor="#ff0000"
-            android:background="@android:color/darker_gray"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_sapl22"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sap_l_2_2"
-            android:textColor="#ff0000"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_sapl23"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sap_l_2_3"
-            android:textColor="#ff0000"
-            android:background="@android:color/darker_gray"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_sapl24"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sap_l_2_4"
-            android:textColor="#ff0000"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_sapl25"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sap_l_2_5"
-            android:textColor="#ff0000"
-            android:background="@android:color/darker_gray"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_sapl26"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sap_l_2_6"
-            android:textColor="#ff0000"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_sapl27"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sap_l_2_7"
-            android:textColor="#ff0000"
-            android:background="@android:color/darker_gray"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_sapl28"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sap_l_2_8"
-            android:textColor="#ff0000"
-            android:textSize="20sp"></TextView>
-        <TextView
-         android:id="@+id/text_view_sapl29"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/sap_l_2_9"
-        android:textColor="#ff0000"
-        android:background="@android:color/darker_gray"
-        android:textSize="20sp"></TextView>
-    <TextView
-        android:id="@+id/text_view_sapl210"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/sap_l_2_10"
-        android:textColor="#ff0000"
-        android:textSize="20sp"></TextView>
-</LinearLayout>
-    </android.support.constraint.ConstraintLayout>
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_sapl21"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_sapl21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@android:color/darker_gray"
+                        android:text="@string/sap_l_2_1"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_sapl22"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_sapl22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/sap_l_2_2"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_sapl23"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_sapl23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@android:color/darker_gray"
+                        android:text="@string/sap_l_2_3"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_sapl24"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_sapl24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/sap_l_2_4"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_sapl25"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_sapl25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@android:color/darker_gray"
+                        android:text="@string/sap_l_2_5"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_sapl26"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_sapl26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/sap_l_2_6"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_sapl27"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_sapl27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@android:color/darker_gray"
+                        android:text="@string/sap_l_2_7"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_sapl28"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_sapl28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/sap_l_2_8"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_sapl29"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_sapl29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@android:color/darker_gray"
+                        android:text="@string/sap_l_2_9"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_sapl210"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_sapl210"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/sap_l_2_10"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.GridLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -18,7 +18,8 @@
         android:paddingEnd="14dp"
         android:paddingStart="14dp"
         android:paddingTop="10dp"
-        android:text="@string/net" />
+        android:text="@string/net"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
 
     <TextView
         android:id="@+id/os_button"
@@ -32,7 +33,8 @@
         android:paddingEnd="14dp"
         android:paddingStart="14dp"
         android:paddingTop="10dp"
-        android:text="@string/os" />
+        android:text="@string/os"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
 
     <TextView
         android:id="@+id/db_button"
@@ -46,7 +48,8 @@
         android:paddingEnd="14dp"
         android:paddingStart="14dp"
         android:paddingTop="10dp"
-        android:text="@string/db" />
+        android:text="@string/db"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
 
     <TextView
         android:id="@+id/sap_button"
@@ -60,7 +63,8 @@
         android:paddingEnd="14dp"
         android:paddingStart="14dp"
         android:paddingTop="10dp"
-        android:text="@string/sap" />
+        android:text="@string/sap"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
 
     <LinearLayout
         android:layout_width="match_parent"

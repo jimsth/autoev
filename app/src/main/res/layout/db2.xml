@@ -8,7 +8,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <TextView
             android:id="@+id/dbl2"
@@ -17,80 +19,262 @@
             android:text="@string/l2"
             android:textSize="35sp"></TextView>
 
-        <TextView
-            android:id="@+id/text_view_dbl21"
+        <android.support.v7.widget.GridLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/db_l_2_1"
-            android:textColor="#ff0000"
-            android:background="@android:color/darker_gray"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_dbl22"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/db_l_2_2"
-            android:textColor="#ff0000"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_dbl23"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/db_l_2_3"
-            android:textColor="#ff0000"
-            android:background="@android:color/darker_gray"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_dbl24"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/db_l_2_4"
-            android:textColor="#ff0000"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_dbl25"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/db_l_2_5"
-            android:textColor="#ff0000"
-            android:background="@android:color/darker_gray"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_dbl26"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/db_l_2_6"
-            android:textColor="#ff0000"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_dbl27"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/db_l_2_7"
-            android:textColor="#ff0000"
-            android:background="@android:color/darker_gray"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_dbl28"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/db_l_2_8"
-            android:textColor="#ff0000"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_dbl29"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/db_l_2_9"
-            android:textColor="#ff0000"
-            android:background="@android:color/darker_gray"
-            android:textSize="20sp"></TextView>
-        <TextView
-            android:id="@+id/text_view_dbl210"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/db_l_2_10"
-            android:textColor="#ff0000"
-            android:textSize="20sp"></TextView>
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_dbl21"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_dbl21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/darker_gray"
+                        android:text="@string/db_l_2_1"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_dbl22"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_dbl22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/db_l_2_2"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_dbl23"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_dbl23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/darker_gray"
+                        android:text="@string/db_l_2_3"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_dbl24"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_dbl24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/db_l_2_4"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_dbl25"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_dbl25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/darker_gray"
+                        android:text="@string/db_l_2_5"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_dbl26"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_dbl26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/db_l_2_6"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_dbl27"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_dbl27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/darker_gray"
+                        android:text="@string/db_l_2_7"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_dbl28"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_dbl28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/db_l_2_8"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_dbl29"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_dbl29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/darker_gray"
+                        android:text="@string/db_l_2_9"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_dbl210"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#932f28" />
+
+                    <TextView
+                        android:id="@+id/text_view_dbl210"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/db_l_2_10"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.GridLayout>
+
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
