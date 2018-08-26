@@ -1,2 +1,2 @@
 # autoev
-C[orporate] R[elatelated] A[utoevaluation] P[roject]
+C[orporate] R[elated] A[utoevaluation] P[roject]
